@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="sound_m">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>210</y>
+     <width>261</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+   </property>
+   <property name="text">
+    <string>/m/ = م</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="level_name">
+   <property name="geometry">
+    <rect>
+     <x>-5</x>
+     <y>0</y>
+     <width>1291</width>
+     <height>102</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(66, 33, 255);
+border-radius: 10px 10px 20px 20px;
+opacity: 1;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; color:#ffffff;&quot;&gt;Family Level&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sound_k">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>350</y>
+     <width>141</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+   </property>
+   <property name="text">
+    <string>/k/ = ك</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sound_n">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>350</y>
+     <width>381</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+   </property>
+   <property name="text">
+    <string>/n/ = ن</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sound_t">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>490</y>
+     <width>401</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+   </property>
+   <property name="text">
+    <string>/t/ = ت</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sound_f">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>490</y>
+     <width>171</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+   </property>
+   <property name="text">
+    <string>/f/ = ف</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sound_w">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>490</y>
+     <width>241</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+   </property>
+   <property name="text">
+    <string>/w/ = و</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sound_x">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>350</y>
+     <width>291</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+   </property>
+   <property name="text">
+    <string>/x/ = خ</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="soundImage1_16">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>180</y>
+     <width>1031</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: rgb(66, 33, 255);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; color:#ffffff;&quot;&gt;Choose a sound&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sound_j">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>210</y>
+     <width>571</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+   </property>
+   <property name="text">
+    <string>/j/ = ي</string>
+   </property>
+  </widget>
+  <zorder>soundImage1_16</zorder>
+  <zorder>sound_x</zorder>
+  <zorder>sound_t</zorder>
+  <zorder>sound_f</zorder>
+  <zorder>sound_n</zorder>
+  <zorder>sound_k</zorder>
+  <zorder>sound_m</zorder>
+  <zorder>level_name</zorder>
+  <zorder>sound_w</zorder>
+  <zorder>sound_j</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

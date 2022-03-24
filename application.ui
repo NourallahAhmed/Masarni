@@ -1,0 +1,1564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1299</width>
+    <height>826</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>9</y>
+      <width>1291</width>
+      <height>801</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="home">
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>340</y>
+        <width>251</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Please, type your name</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="startButton">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>460</y>
+        <width>101</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 10px 10px 57px 56px;
+background-color: rgb(238, 84, 69);
+color: rgb(255, 0, 0);
+
+color: rgb(255, 255, 255);
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Start</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>240</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 24pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(22, 204, 12);</string>
+      </property>
+      <property name="text">
+       <string>Welcome</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="learnername">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>390</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 10px 10px 57px 56px;
+background-color: rgb(255, 255, 255);
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="categories">
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>280</y>
+        <width>241</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 25px 25px 35px 35px;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>images/family.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>280</y>
+        <width>241</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 25px 25px 35px 35px;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>images/lion-dance.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="familylevel">
+      <property name="geometry">
+       <rect>
+        <x>880</x>
+        <y>580</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Permanent Marker&quot;;
+background-color: rgb(66, 33, 255);
+color: rgb(255, 255, 255);
+border-radius: 10px 10px 20px 20px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>family level</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>170</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 18pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Choose level</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>280</y>
+        <width>241</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 25px 25px 35px 35px;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>images/deal.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="friendslevel">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>580</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Permanent Marker&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px 10px 20px 20px;
+background-color: rgb(238, 238, 0);
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>friends level</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="enemieslevel">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>580</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgb(0, 195, 122);
+font: 16pt &quot;Permanent Marker&quot;;
+color: rgb(255, 255, 255);
+border-radius: 10px 10px 20px 20px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>enemies level</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="hi">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>50</y>
+        <width>631</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 25px 25px 35px 35px;
+font: 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(248, 248, 248);</string>
+      </property>
+      <property name="text">
+       <string>     Hi, </string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="enemies">
+     <widget class="QLabel" name="soundImage2_4">
+      <property name="geometry">
+       <rect>
+        <x>1150</x>
+        <y>670</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundImage1_4">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>400</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sound_D">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>130</y>
+        <width>391</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(229, 229, 229);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>صوت الضاد</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="level_name">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>1221</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgb(0, 195, 122);
+border-radius: 10px 10px 20px 20px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundImage2_3">
+      <property name="geometry">
+       <rect>
+        <x>1150</x>
+        <y>530</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundImage2">
+      <property name="geometry">
+       <rect>
+        <x>1150</x>
+        <y>270</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sound_zal">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>520</y>
+        <width>391</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(229, 229, 229);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>صوت الذال</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundimage">
+      <property name="geometry">
+       <rect>
+        <x>1150</x>
+        <y>270</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundImage2_2">
+      <property name="geometry">
+       <rect>
+        <x>1150</x>
+        <y>400</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sound_glottal">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>260</y>
+        <width>401</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(229, 229, 229);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>الهمزة</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sound_tha2">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>390</y>
+        <width>391</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(229, 229, 229);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>صوت الثاء</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sound_Z">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>390</y>
+        <width>391</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(229, 229, 229);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>صوت الظاء</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundImage1_8">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>140</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundImage1_7">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>270</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundimage_3">
+      <property name="geometry">
+       <rect>
+        <x>1150</x>
+        <y>530</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundImage1_2">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>140</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundImage1_6">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>670</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundImage1_9">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>400</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundimage_2">
+      <property name="geometry">
+       <rect>
+        <x>1150</x>
+        <y>400</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sound_q">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>130</y>
+        <width>401</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(229, 229, 229);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>صوت القاف</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sound_h">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>390</y>
+        <width>401</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(229, 229, 229);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>صوت الهاء</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundImage1_3">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>270</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundImageqaf">
+      <property name="geometry">
+       <rect>
+        <x>1150</x>
+        <y>140</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; color:#00aa7f;&quot;&gt;ق&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundimage_4">
+      <property name="geometry">
+       <rect>
+        <x>1150</x>
+        <y>670</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sound_T">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>660</y>
+        <width>391</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(229, 229, 229);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>صوت الطاء</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sound_g">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>260</y>
+        <width>391</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(229, 229, 229);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>صوت الجيم</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sound_3">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>660</y>
+        <width>401</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(229, 229, 229);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>صوت العين</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sound_8in">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>130</y>
+        <width>391</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(229, 229, 229);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>صوت الغين</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundImage10">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>530</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sound_H">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>520</y>
+        <width>401</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(229, 229, 229);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>صوت الحاء</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sound_S">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>260</y>
+        <width>391</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(229, 229, 229);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>صوت الصاد</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundImage1_5">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>530</y>
+        <width>103</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(188, 188, 188);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sound_r">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>520</y>
+        <width>391</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(229, 229, 229);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>صوت الراء</string>
+      </property>
+     </widget>
+     <zorder>sound_glottal</zorder>
+     <zorder>soundImage2</zorder>
+     <zorder>sound_D</zorder>
+     <zorder>level_name</zorder>
+     <zorder>sound_zal</zorder>
+     <zorder>sound_tha2</zorder>
+     <zorder>sound_Z</zorder>
+     <zorder>soundImage1_8</zorder>
+     <zorder>soundimage_3</zorder>
+     <zorder>soundImage1_9</zorder>
+     <zorder>soundimage_2</zorder>
+     <zorder>sound_q</zorder>
+     <zorder>sound_h</zorder>
+     <zorder>soundImageqaf</zorder>
+     <zorder>soundimage_4</zorder>
+     <zorder>sound_T</zorder>
+     <zorder>sound_g</zorder>
+     <zorder>sound_3</zorder>
+     <zorder>sound_8in</zorder>
+     <zorder>sound_H</zorder>
+     <zorder>sound_S</zorder>
+     <zorder>soundImage1_5</zorder>
+     <zorder>sound_r</zorder>
+     <zorder>soundimage</zorder>
+     <zorder>soundImage10</zorder>
+     <zorder>soundImage1_2</zorder>
+     <zorder>soundImage1_3</zorder>
+     <zorder>soundImage1_4</zorder>
+     <zorder>soundImage1_6</zorder>
+     <zorder>soundImage1_7</zorder>
+     <zorder>soundImage2_2</zorder>
+     <zorder>soundImage2_3</zorder>
+     <zorder>soundImage2_4</zorder>
+    </widget>
+    <widget class="QWidget" name="soundform">
+     <widget class="QWidget" name="video" native="true">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>250</y>
+        <width>561</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>561</width>
+         <height>391</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="vboxLayout">
+        <item>
+         <layout class="QHBoxLayout" name="hboxLayout"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>150</y>
+        <width>471</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 24pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Pronuciation Video</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="gtexercices">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>720</y>
+        <width>563</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 10px 10px 57px 56px;
+background-color: rgb(238, 84, 69);
+color: rgb(255, 0, 0);
+
+color: rgb(255, 255, 255);
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Done ! I'm ready for exercices</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundname">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1246</width>
+        <height>102</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgb(0, 195, 122);
+border-radius: 10px 10px 20px 20px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="soundname_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>140</y>
+        <width>192</width>
+        <height>67</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgb(0, 195, 122);
+border-radius: 25px 25px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="soundBtn">
+      <property name="geometry">
+       <rect>
+        <x>1210</x>
+        <y>160</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 15px 15px 35px 35px;
+background-color: rgb(208, 201, 199);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>images/speaker-interface-audio-symbol.png</normaloff>images/speaker-interface-audio-symbol.png</iconset>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>230</y>
+        <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 17pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Tips for pronunciation</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tips">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>290</y>
+        <width>571</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(221, 221, 221);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="backbutton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 15px 15px 35px 35px;
+background-color: rgb(208, 201, 199);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>images/back.png</normaloff>images/back.png</iconset>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>150</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 17pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Lesson</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="playBtn">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>670</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Play</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="wordform">
+     <widget class="QLabel" name="Listenlable">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>140</y>
+        <width>341</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(226, 226, 226);
+font: 75 18pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 25px 25px 40px 40px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>      Listen and Speak</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="image">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>250</y>
+        <width>351</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(197, 197, 197);
+border-radius: 50px 50px 60px 60px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="msgRecbox">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>500</y>
+        <width>411</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(197, 197, 197);
+font: 75 18pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 40px 40px 50px 50px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>           Press to speak</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lable">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>220</y>
+        <width>472</width>
+        <height>506</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(226, 226, 226);
+border-radius: 25px 25px 40px 40px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="backbutton_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 15px 15px 35px 35px;
+background-color: rgb(208, 201, 199);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>images/back.png</normaloff>images/back.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ListenwordButt">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>620</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 15px 15px 35px 35px;
+background-color: rgb(158, 158, 158);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>images/speaker-interface-audio-symbol.png</normaloff>images/speaker-interface-audio-symbol.png</iconset>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundname_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>1246</width>
+        <height>102</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgb(0, 195, 122);
+border-radius: 10px 10px 20px 20px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>220</y>
+        <width>472</width>
+        <height>506</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(226, 226, 226);
+border-radius: 25px 25px 40px 40px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="NextButton">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>630</y>
+        <width>371</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 10px 10px 57px 56px;
+background-color: rgb(238, 84, 69);
+color: rgb(255, 0, 0);
+
+color: rgb(255, 255, 255);
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="micButton">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>260</y>
+        <width>281</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(197, 197, 197);
+border-radius: 70px 70px 80px 80px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>images/microphone-black-shape.png</normaloff>images/microphone-black-shape.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>150</width>
+        <height>150</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="wordlable">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>590</y>
+        <width>371</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(197, 197, 197);
+font: 28pt &quot;MS Shell Dlg 2&quot;;
+
+border-radius: 20px 20px 30px 30px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <zorder>label_11</zorder>
+     <zorder>wordlable</zorder>
+     <zorder>soundname_3</zorder>
+     <zorder>Listenlable</zorder>
+     <zorder>image</zorder>
+     <zorder>msgRecbox</zorder>
+     <zorder>lable</zorder>
+     <zorder>backbutton_2</zorder>
+     <zorder>NextButton</zorder>
+     <zorder>micButton</zorder>
+     <zorder>ListenwordButt</zorder>
+    </widget>
+    <widget class="QWidget" name="exform">
+     <widget class="QPushButton" name="B2">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>300</y>
+        <width>341</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(252, 252, 252);
+border-radius: 20px 20px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="backbutton_3">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>30</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 15px 15px 35px 35px;
+background-color: rgb(208, 201, 199);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>images/back.png</normaloff>images/back.png</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="B1">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>300</y>
+        <width>341</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(252, 252, 252);
+border-radius: 20px 20px 35px 35px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="soundname_4">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>1246</width>
+        <height>102</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgb(0, 195, 122);
+border-radius: 10px 10px 20px 20px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>140</y>
+        <width>491</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 10px 10px 20px 20px;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(190, 190, 190);
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>       Which one has the target sound</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>670</y>
+        <width>491</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 20px 20px 35px 35px;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(190, 190, 190);
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string>                       Well Done!</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="nextbutton">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>730</y>
+        <width>491</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 20px 20px 35px 35px;
+background-color: rgb(238, 84, 69);
+color: rgb(255, 0, 0);
+
+color: rgb(255, 255, 255);
+
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Done</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="wordname">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>190</y>
+        <width>711</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgb(0, 195, 122);
+border-radius: 10px 10px 20px 20px;
+opacity: 1;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Sbutton">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>220</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 15px 15px 35px 35px;
+background-color: rgb(208, 201, 199);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>images/speaker-interface-audio-symbol.png</normaloff>images/speaker-interface-audio-symbol.png</iconset>
+      </property>
+     </widget>
+     <zorder>soundname_4</zorder>
+     <zorder>B2</zorder>
+     <zorder>backbutton_3</zorder>
+     <zorder>B1</zorder>
+     <zorder>label_7</zorder>
+     <zorder>label_12</zorder>
+     <zorder>nextbutton</zorder>
+     <zorder>wordname</zorder>
+     <zorder>Sbutton</zorder>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
